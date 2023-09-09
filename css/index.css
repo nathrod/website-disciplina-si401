@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #2C444E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+header p{
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(218, 37, 28);
+    transition: 0.5s all;
+}
+
+nav{
+    margin-left: 50px;
+}
+
+nav a{
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+  
+.logo img {
+    width: 40px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+main{
+    background-color: white;
+}
+
+h1{
+    font-family: serif;
+    margin-top: 15px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.inicio p{
+    line-height: 50px;
+    font-size: 17px;
+}
+
+.primeira-parte{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.primeira-parte img{
+    width: 400px;
+    border-radius: 50px;
+    border: 8px solid #2C444E;
+    margin-bottom: 15px;
+}
+
+.primeira-parte p{
+    margin-bottom: 40px;
+}
+
+.informacoes-adicionais{
+    margin-top: 90px;
+    margin-right: 25px;
+    padding: 20px;
+    float: right;
+    text-align: center;
+    height: fit-content;
+}
+
+.informacoes-adicionais ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.informacoes-adicionais li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.btn{
+    background-color: #E9AEE4;
+    border: 2px solid #2C444E;
+    font-family: Arial;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #FBEFFD;
+    color: black;
+}
+
+.cards p, h3{
+    text-align: center;
+    font-weight: medium;
+}
+
+.cards{
+    display: flex; 
+    gap: 16px;
+    margin-bottom: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -80px;
+}
+
+.cards h3{
+    margin-bottom: 16px;
+}
+
+#sala{
+    margin-top: 50px;
+}
+
+#ped{
+    margin-top: 40px;
+}
+
+.info-box{
+    width: 250px;
+    height: 190px;
+    background-color: #957EFF;
+    padding: 24px;
+    border-radius: 32px;
+}
+
+.info-box p{
+    color: #fff;
+    
+}
+
+.info-box2 {
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.info-box2 h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+    font-family: fantasy;
+}
+
+.info-box2 p {
+    font-size: 18px; 
+    line-height: 1.4; 
+    text-align: center;
+}
+
+section{
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.espaco-branco{
+    margin-top: 25px;
+    margin-bottom: 100px;
+    background-image: url(../img/header-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+
+.final-pagina{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 15px;
+    align-items: center;
+}
+
+.final-pagina img{
+    width: 650px;
+    margin-bottom: 50px;
+}
+
+article{
+    background-color: #72A8F2;
+    color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+    margin-top: -80px;
+}
+
+article h5{
+    font-size: 20px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+article p{
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+h4{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.valid-center{
+    align-items: center;
+}
+
+footer{
+    padding: 20px;
+    height: 150px;
+    background-color: #2C444E;
+    text-align: center;
+}
+
+footer img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer p{
+    color: white;
+    font-weight: bold;
+}
